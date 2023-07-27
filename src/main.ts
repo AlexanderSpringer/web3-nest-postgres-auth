@@ -6,6 +6,6 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors(); // Enable CORS
   app.use(cookieParser());
-  await app.listen(process.env.REST_PORT || '80');
+  await app.listen(process.env.REST_PORT || '3000');
 }
 bootstrap();
