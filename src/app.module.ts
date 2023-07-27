@@ -22,7 +22,7 @@ import entities from './typeorm';
         entities: entities,
         synchronize: true,
         url: configService.get('DATABASE_URL'),
-        //ssl: { rejectUnauthorized: false },
+        ssl: { rejectUnauthorized: false },
       }),
       inject: [ConfigService],
     }), 
