@@ -40,7 +40,6 @@ export class UsersController {
     @Post('username')
     @UsePipes(ValidationPipe)
     updateUsername(@Request() req, @Body() data: Record<string, any>) {
-        console.log(req.user);
         return this.userService.updateUsername(req.user.ethAddr, data.username);
     }
 
