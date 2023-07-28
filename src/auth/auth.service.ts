@@ -75,9 +75,6 @@ export class AuthService {
       });
     }
 
-    console.log({nonce: nonce});
-    user = await this.usersService.findUserByEthAddr(ethAddr);
-
     return {
       nonce: nonce
     }
