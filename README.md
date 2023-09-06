@@ -1,5 +1,4 @@
 <p>Backend Metamask authentication using Nest, Postgres and ethers.js. Front-End (required to get JWT Token from Metamask signIn): https://github.com/AlexanderSpringer/web3-svelte-ui</p><br />
-<p><b>Live Demo</b>: https://web3-svelte-ui.vercel.app/</p><br />
 <p>
 Since this is a simple demo some functionality is not yet included:<br />
 <ul>
